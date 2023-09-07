@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HTML form</title>
+
+</head>
+
+<body>
+    <h1>HTML Form</h1>
+    <form>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name:">
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email">
+
+        <br><br>
+
+        <label for="possword">possword</label>
+        <input type="possword" id="possword" placeholder="Enter your possword">
+
+        <br><br>
+
+        <label for="salary">Salary</label>
+        <input type="number" id="salary" min="5000" max="100000" placeholder="Enter your salary">
+
+        <br><br>
+
+        <input type="radio" id="male" name="gender">
+        <label for="male">Mail</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+
+        <br><br>
+        <label for="occupation">Occupation</label>
+        <select id="occupation">
+            <option selected hidden>select an option!</option>
+            <option>Student</option>
+            <option>job</option>
+            <option>self Employed</option>
+            <option disabled>Others</option>
+        </select>
+        <br><br>
+
+        <input type="checkbox" id="remember_me">
+        <label for="remember_me">remember Me</label>
+
+        <br></br>
+        <label for="address">Address</label>
+        <textarea id="address" cols="20" rows="4"></textarea>
+
+        <br></br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+
+</body>
+
+</html>

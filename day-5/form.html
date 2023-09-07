@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <h1>HTML Forms</h1>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name!">
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email!">
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password!">
+        <br><br>
+        <label for="salary">Salary</label>
+        <input type="number" id="salary" min="5000" max="20000000000" placeholder="Enter your salary!">
+        <br><br>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+        <br><br>
+        <label for="occupation">Occupation</label>
+        <select id="occupation">
+            <option selected hidden>Select an option!</option>
+            <option>Student</option>
+            <option>Job</option>
+            <option>Self Employed</option>
+            <option disabled>Others</option>
+        </select>
+        <br><br>
+        <input type="checkbox" id="remember_me">
+        <label for="remember_me">Remember Me</label>
+        <br><br>
+        <label for="address">Address</label>
+        <textarea id="address" cols="40" rows="3" placeholder="Enter your address!">Rawalpindi</textarea>
+        <br><br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+
+</html>
