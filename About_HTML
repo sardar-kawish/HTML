@@ -1,0 +1,73 @@
+<!--                                                                                                                                                              About HTML
+HTML,
+ which stands for Hypertext Markup Language, is the standard language for creating and structuring content on the World Wide Web.
+
+ It is the foundation of web pages and is used to define the structure and presentation of web content. 
+HTML
+ documents are composed of elements that are marked up with tags, which describe the content's meaning and how it should be displayed in web browsers.
+
+HTML Tags:
+ HTML documents consist of various tags that are enclosed in angle brackets ("<" and ">").
+ Tags are used to define elements and their properties.
+
+For example, 
+the <p> tag is used to create paragraphs, and the <a> tag is used to create hyperlinks.
+
+Elements:
+ HTML elements are the building blocks of web pages.
+ They are composed of an opening tag, content, and a closing tag.
+ For example:
+html
+code
+<p>This is a paragraph.</p>
+
+Attributes:
+ HTML elements can have attributes that provide additional information about the element. 
+Attributes are included in the opening tag.
+ For example, 
+the <a> tag can have an href attribute to specify the URL of the link:
+html
+ code
+<a href="https://www.google.co.uk/">Visit google.co</a>
+
+Head and Body:
+ An HTML document typically consists of two main sections: 
+the <head> section and the <body> section. 
+The <head> section contains metadata about the document, such as the page title and links to external resources like stylesheets and scripts.
+ The <body> section contains the visible content of the web page.
+
+Text Formatting: 
+HTML provides tags for formatting text, such as headings (<h1> to <h6>), emphasis (<em> and <strong>), line breaks (<br>), and more.
+
+Lists: 
+HTML allows you to create ordered lists (<ol>), unordered lists (<ul>), and definition lists (<dl>) to organize content.
+
+Links and Anchors:
+ Hyperlinks are created using the <a> (anchor) tag. 
+They allow users to navigate to other web pages or resources.
+
+Images: 
+Images can be displayed using the <img> tag,
+ with the src attribute specifying the image file's URL.
+
+Forms:
+ HTML forms are created using the <form> tag and allow users to input data.
+ Form elements include text fields, radio buttons, checkboxes, and more.
+
+Tables:
+ Tables can be created with the <table>, <tr> (table row), <th> (table header), and 
+<td> (table data) elements for organizing data in a tabular format.
+
+Comments:
+ HTML comments are used to add notes or explanations within the code.
+ They are enclosed in <!-- and -->
+<!--  
+ tags and are not visible in the rendered web page.
+Semantic HTML:
+ HTML5 introduced semantic elements like 
+<header>,
+ <nav>,
+ <article>,
+ <section>, 
+<footer>, and more. 
+These elements provide meaning to the structure of the document and help improve accessibility and SEO. -->
